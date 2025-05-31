@@ -199,7 +199,7 @@ const App = () => {
         {modal.show && (
           <Modal
             message={modal.message}
-            onConfirm={handleReplace} // renamed from onConfirm
+            onConfirm={replaceTask}
             onCancel={closeModal}
             type={modal.type}
           />
